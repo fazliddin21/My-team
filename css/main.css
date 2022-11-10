@@ -375,11 +375,13 @@ img {
     padding: 0 100px;
   }
 }
+
 @media only screen and (min-width: 769px) and (max-width: 949px) {
   .container {
     padding: 0 60px;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .container {
     padding: 0 40px;
@@ -442,6 +444,7 @@ img {
     height: 32px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .nav, .header-link {
     display: none;
@@ -450,6 +453,8 @@ img {
     display: block;
   }
 }
+
+
 .hero {
   padding-bottom: 250px;
   background-color: #014E56;
@@ -501,6 +506,7 @@ mark {
   background-color: #79C8C7;
 }
 
+
 .about-hero {
   padding-bottom: 120px;
   background: #014E56;
@@ -543,4 +549,179 @@ mark {
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
+
+}
+
+.directors {
+  padding: 140px 0;
+  background: #004047;
+  background-image: url("../../../images/about-directors-bg1.svg"), url("../../../images/about-directors-bg2.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 710px) top, calc(50% + 630px) bottom;
+}
+
+.directors__title {
+  margin: 0 auto;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.directors__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.directors__item {
+  position: relative;
+  margin-bottom: 56px;
+  padding: 32px 0 56px;
+  width: 100%;
+  max-width: 350px;
+  background: #012F34;
+}
+
+.directors-item:nth-child(6) {
+  padding: 35px 0 64px;
+}
+
+.plus-btn, .x-btn {
+  position: absolute;
+  padding: 20px;
+  bottom: -26px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  content: "";
+  background: #F67E7E;
+  border-radius: 50%;
+}
+
+.plus-btn:hover, .x-btn:hover {
+  background: #79C8C7;
+}
+
+.x-btn {
+  background: #79C8C7;
+}
+
+.x-btn:hover {
+  background: #F67E7E;
+}
+
+.directors-item__content {
+  width: 100%;
+  max-width: 254px;
+  margin: 0 auto;
+}
+
+.person1 {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.directors__name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+
+.directors__job {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.directors-item__blockquote {
+  margin: 0;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.person6__social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 950px) {
+  .directors-item {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .directors {
+    padding: 100px 0;
+  }
+  .directors__title {
+    margin-bottom: 48px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .directors__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 11px;
+  }
+  .directors-item {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 651px) {
+  .directors-item {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .directors {
+    padding: 88px 0;
+  }
+  .directors__item {
+    margin-bottom: 52px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
+=======
 }/*# sourceMappingURL=main.css.map */
+
