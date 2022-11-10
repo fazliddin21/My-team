@@ -565,7 +565,7 @@ mark {
   background: #014E56;
   background-image: url("../../../images/about-hero-bg.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% + 630px) bottom;
+  background-position: calc(50% + 670px) bottom;
 }
 
 .about-hero__inner {
@@ -615,7 +615,7 @@ mark {
   background: #004047;
   background-image: url("../../../images/about-directors-bg1.svg"), url("../../../images/about-directors-bg2.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% - 710px) top, calc(50% + 630px) bottom;
+  background-position: calc(50% - 670px) top, calc(50% + 640px) bottom;
 }
 
 .directors__title {
@@ -785,7 +785,7 @@ mark {
   background: #012F34;
   background-image: url("../../../images/clients-bg.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% - 660px) top;
+  background-position: calc(50% - 620px) top;
 }
 
 .clients__title {
@@ -866,6 +866,9 @@ mark {
 .contact {
   padding: 43px 0 120px;
   background: #014E56;
+  background-image: url("../../../images/about-directors-bg1.svg"), url("../../../images/contact-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 670px) 70px, calc(50% + 670px) bottom;
 }
 
 .contact__inner {

@@ -1,6 +1,9 @@
 .contact {
   padding: 43px 0 120px;
   background: #014E56;
+  background-image: url("../../../images/about-directors-bg1.svg"),url("../../../images/contact-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 670px) 70px,calc(50% + 670px) bottom;
 }
 
 .contact__inner {
