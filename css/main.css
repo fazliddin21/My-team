@@ -449,6 +449,10 @@ img {
   .menu__btn {
     display: block;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4779b63d9545daf1a9986bd0899d3b2fa6e6c21a
 }
 .hero {
   padding-bottom: 250px;
@@ -529,6 +533,7 @@ mark {
   background-color: #F67E7E;
 }
 
+<<<<<<< HEAD
 .about-hero__title {
   margin: 0;
   font-weight: 700;
@@ -544,3 +549,12 @@ mark {
   line-height: 28px;
   color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
+=======
+.hero-line {
+  background: #79C8C7;
+}/*# sourceMappingURL=main.css.map */
+=======
+}/*# sourceMappingURL=main.css.map */
+
+
+>>>>>>> 4779b63d9545daf1a9986bd0899d3b2fa6e6c21a
