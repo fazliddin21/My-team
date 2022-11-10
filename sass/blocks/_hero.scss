@@ -1,0 +1,44 @@
+.hero {
+   padding-bottom: 250px;
+   background-color: #014E56;
+   background-image: url('../../images/hero-bg-img.svg');
+   background-repeat: no-repeat;
+}
+.hero__inner {
+   display: flex;
+   
+}
+.hero-title-wrapper {
+   width: 100%;
+   max-width: 635px;
+}
+.hero-title {
+   margin: 0;
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 100px;
+   color: #FFFFFF;
+}
+.hero-content {
+   width: 100%;
+   max-width: 445px;
+}
+.hero-text {
+   margin: 0;
+   margin-top: 79px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 28px;
+   color: #FFFFFF;
+}
+mark {
+   background-color: transparent;
+   color: #F67E7E;
+}
+.hero_line {
+   display: block;
+   width: 100%;
+   max-width: 50px;
+   height: 4px;
+   background-color: #79C8C7;
+}
