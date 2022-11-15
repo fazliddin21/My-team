@@ -2,48 +2,48 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title></title>
-   <link rel="stylesheet" href="./css/main.css">
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="./css/main.css" />
+   <title>My Team</title>
 </head>
 
 <body>
-   <header class="site-hedear">
-      <h1 class="visually-hidden">my team</h1>
+   <header class="site-header">
       <div class="container">
-         <div class="hedear-inner">
-            <a class="hedear-logo logo" href="./index.html">
-               <img class="logo-pic" src="./images/myteam-logo.svg" alt="site-logo" width="160" height="40">
+         <div class="site-header__inner">
+            <a class="logo" href="./index.html">
+               <img class="logo__pic" width="160" height="40" src="./images/myteam-logo.svg" alt="Site logo" />
             </a>
-            <nav class="hedear__nav nav">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a class="nav__link" href="#">home</a>
+            <nav class="navbar">
+               <ul class="navbar__list">
+                  <li class="navbar__item">
+                     <a class="navbar__link" href="./index.html">home</a>
                   </li>
-                  <li class="nav__item">
-                     <a class="nav__link" href="./about.html">about</a>
+                  <li class="navbar__item">
+                     <a class="navbar__link" href="./about.html">about</a>
+                  </li>
+                  <li class="navbar__item contact-btn">
+                     <a class="navbar__link contact-link" href="./contact.html">contact</a>
                   </li>
                </ul>
             </nav>
-            <a class="nav__link header-link" href="#">contact us</a>
-            <button class="menu__btn"></button>
+            <button class="menu-btn">  </button>
          </div>
       </div>
    </header>
-   
    <main>
       <section class="hero">
          <div class="container">
             <div class="hero__inner">
                <div class="hero__content">
-                  <div class="hero__title-wrap">
+                  <div class="hero__title-inner">
                      <h2 class="hero__title">
-                        Find the best <mark>talent</mark>
+                        Find the best <span class="hero__colored-title">talent</span>
                      </h2>
                   </div>
-                  <div class="hero__deck">
+                  <div class="hero__texts">
                      <span class="hero__line"></span>
                      <p class="hero__text">
                         Finding the right people and building high performing teams
@@ -55,46 +55,56 @@
             </div>
          </div>
       </section>
-      
-      <section class="build">
-         <div class="container">
-            <div class="build__inner">
-               <div class="build__texts">
-                  <span class="build__line hero__line"></span>
-                  <div class="build__title-inner">
-                     <h2 class="build__title">
-                        Build & manage distributed teams like no one else.
-                     </h2>
-                  </div>
+   
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__top">
+               <div class="footer__links">
+                  <a class="logo" href="./index.html">
+                     <img class="logo__pic" width="160" height="40" src="./images/myteam-logo.svg" alt="Site logo">
+                  </a>
+                  <ul class="footer__list">
+                     <li class="footer__item">
+                        <a class="footer__link" href="./index.html">home</a>
+                     </li>
+                     <li class="footer__item">
+                        <a class="footer__link" href="./about.html">about</a>
+                     </li>
+                  </ul>
                </div>
-               <ul class="build__list">
-                  <li class="before-box build__item">
-                     <h3 class="build__name">Experienced Individuals</h3>
-                     <p class="build__text">
-                        Our network is made up of highly experienced professionals who
-                        are passionate about what they do.
+               <address class="footer__address">
+                  <div class="footer__text-inner">
+                     <p class="footer__text">
+                        987 Hillcrest LaneIrvine, CACalifornia 92714
                      </p>
+                  </div>
+                  <a class="footer__tel" href="tel:9498337432">Call Us : 949-833-7432</a>
+               </address>
+            </div>
+            <div class="footer__right-box">
+               <ul class="social">
+                  <li class="social__item">
+                     <a class="social__link" href="#">
+                        <img class="social__pic" width="24" height="24" src="./images/Path3.svg" alt="facebook img">
+                     </a>
                   </li>
-                  <li class="before-box2 build__item">
-                     <h3 class="build__name">Easy to Implement</h3>
-                     <p class="build__text">
-                        Our processes have been refined over years of implementation
-                        meaning our teams always deliver.
-                     </p>
+                  <li class="social__item">
+                     <a class="social__link" href="#">
+                        <img class="social__pic" width="24" height="24" src="./images/Path1.svg" alt="pinterest img">
+                     </a>
                   </li>
-                  <li class="before-box3 build__item">
-                     <h3 class="build__name">Enhanced Productivity</h3>
-                     <p class="build__text build-active__text">
-                        Our customized platform with in-built analytics helps you
-                        manage your distributed teams.
-                     </p>
+                  <li class="social__item">
+                     <a class="social__link" href="#">
+                        <img class="social__pic" width="24" height="24" src="./images/Path.svg" alt="twitter img">
+                     </a>
                   </li>
                </ul>
+               <small class="footer__small">Copyright 2020. All Rights Reserved</small>
             </div>
          </div>
-      </section>
-      
-   </main>
+      </div>
+   </footer>
 </body>
-
 </html>
